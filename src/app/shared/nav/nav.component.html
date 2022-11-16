@@ -1,0 +1,14 @@
+<!-- <p>nav works!</p> -->
+
+
+
+<nav #menu class="navbar order-last order-lg-0">     
+    <ul>
+      <li *ngFor="let na of nav">
+        <a [ngClass]="{'active': na.active}" class="nav-link scrollto" href="#{{na.href}}" #active>{{na.menu}}
+        </a>
+      </li>
+    </ul>
+  
+    <i #icono (click)="openCloseMenu()" class="bi bi-list mobile-nav-toggle mr-20"></i>
+</nav>

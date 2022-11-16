@@ -1,0 +1,21 @@
+
+swiper {
+    /* height: 400px; */
+    width: 100%;
+}
+
+/* .img{
+    width: 320px; margin-right: 10px; height: 80px;
+} */
+
+
+img {
+    width: 100px !important;
+    height: 50px !important;
+    overflow: hidden;
+}
+
+.box-img-producto>img {
+    width: 100% !important;
+    height: 100% !important;
+}
